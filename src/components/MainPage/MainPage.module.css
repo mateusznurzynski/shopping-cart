@@ -1,0 +1,24 @@
+.mainPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mainPageImage {
+  width: 50%;
+}
+
+.mainPageText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.mainPageText h1 {
+  margin-bottom: 30px;
+}

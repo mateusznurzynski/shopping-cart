@@ -1,4 +1,5 @@
 import PageWrapper from '../PageWrapper/PageWrapper'
+import MainPage from '../MainPage/MainPage'
 // import RouteRedirect from './RouteRedirect'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
@@ -8,7 +9,12 @@ function Router() {
     {
       path: '/',
       element: <PageWrapper />,
-      children: [],
+      children: [
+        {
+          index: true,
+          element: <MainPage />,
+        },
+      ],
     },
   ])
 
