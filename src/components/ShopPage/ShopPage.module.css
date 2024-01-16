@@ -1,0 +1,10 @@
+.shopPage {
+  padding: 10px;
+}
+
+.shopItemList {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(25%, 1fr));
+  row-gap: 25px;
+  padding: 25px 10px;
+}

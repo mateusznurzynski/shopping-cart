@@ -1,0 +1,29 @@
+.shopItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.itemImage {
+  padding: 20px;
+}
+
+.itemImage img {
+  width: 150px;
+  height: 200px;
+}
+
+.itemTitle {
+  width: 100%;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
