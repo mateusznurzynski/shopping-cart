@@ -7,6 +7,12 @@
   font-family: unset;
 }
 
+a {
+  text-decoration: none;
+  color: unset;
+  cursor: pointer;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
