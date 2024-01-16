@@ -1,7 +1,15 @@
+import style from './NavbarShoppingCart.module.css'
 import PropTypes from 'prop-types'
+import Icon from '@mdi/react'
+import { mdiCartVariant } from '@mdi/js'
 
 function NavbarShoppingCart({ numberOfItems }) {
-  return <div>{numberOfItems}</div>
+  return (
+    <button aria-label='Shopping Cart' className={style.shoppingCartWrapper}>
+      <Icon path={mdiCartVariant} size={1.1} title={'Shopping Cart'} />
+      <div>{numberOfItems}</div>
+    </button>
+  )
 }
 
 NavbarShoppingCart.propTypes = {

@@ -1,0 +1,10 @@
+.shoppingCartWrapper {
+  display: flex;
+  align-items: center;
+  border: 1px white solid;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+  gap: 5px;
+}

@@ -1,5 +1,5 @@
 .navbar {
-  height: 48px;
+  height: 60px;
   border-bottom: 1px white solid;
   display: flex;
   justify-content: flex-start;
@@ -10,7 +10,13 @@
   display: flex;
   place-items: center;
   cursor: pointer;
-  padding: 10px;
+  padding: 0px 10px;
+}
+
+.navbarItem a {
+  height: 100%;
+  display: flex;
+  place-items: center;
 }
 
 .navbarLink {
