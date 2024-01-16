@@ -1,0 +1,26 @@
+.mainButton {
+  --hover: #ffffff;
+  background: none;
+  border: 2px solid;
+  padding: 1em 2em;
+  cursor: pointer;
+}
+
+.mainButton:hover,
+.mainButton:focus {
+  -webkit-animation: pulse 0.5s;
+  animation: pulse 0.5s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
