@@ -1,0 +1,15 @@
+.loading {
+  padding: 10px;
+  font-size: 10em;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 100px;
+}
+
+.small {
+  composes: loading;
+  font-size: 5em;
+  width: 50px;
+}

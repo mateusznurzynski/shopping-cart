@@ -2,9 +2,10 @@ import style from './ShopPage.module.css'
 import PropTypes from 'prop-types'
 import { useEffect, useState } from 'react'
 import ShopItem from '../ShopItem/ShopItem'
+import Loading from '../Loading/Loading'
 
 function ShopPage() {
-  const PRODUCTS_URL = 'https://fakestoreapi.com/products?limit=5'
+  const PRODUCTS_URL = 'https://fakestoreapi.com/products'
 
   const [products, setProducts] = useState([])
   const [loading, setLoading] = useState(true)
@@ -26,7 +27,7 @@ function ShopPage() {
   })
 
   return loading ? (
-    <div className='loading'></div>
+    <Loading />
   ) : (
     <section className={style.shopPage}>
       <div className={style.shopItemList}>{shopItemElements}</div>
