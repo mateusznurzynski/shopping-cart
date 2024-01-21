@@ -13,11 +13,13 @@
 
 .itemImage {
   padding: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .itemImage img {
-  width: 150px;
-  height: 200px;
+  max-width: 150px;
+  max-height: 200px;
 }
 
 .itemTitle {
