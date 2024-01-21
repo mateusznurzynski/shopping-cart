@@ -1,3 +1,4 @@
+import AddToCartButton from '../AddToCartButton/AddToCartButton'
 import style from './ShopItem.module.css'
 import PropTypes from 'prop-types'
 
@@ -11,6 +12,7 @@ function ShopItem({ productData }) {
       <div title={productData.title} className={style.itemTitle}>
         {productData.title}
       </div>
+      <AddToCartButton productData={productData} />
     </div>
   )
 }

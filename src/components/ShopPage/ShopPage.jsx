@@ -5,7 +5,7 @@ import ShopItem from '../ShopItem/ShopItem'
 import Loading from '../Loading/Loading'
 
 function ShopPage() {
-  const PRODUCTS_URL = 'https://fakestoreapi.com/products'
+  const PRODUCTS_URL = 'https://fakestoreapi.com/products?limit=1'
 
   const [products, setProducts] = useState([])
   const [loading, setLoading] = useState(true)

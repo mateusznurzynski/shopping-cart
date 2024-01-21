@@ -13,7 +13,8 @@ a {
   cursor: pointer;
 }
 
-button {
+button,
+input {
   background-color: unset;
   border: none;
   outline: none;
@@ -34,6 +35,19 @@ button {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --success-hover: #1c9438;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
 }
 body {
   margin: 0;
